@@ -1,6 +1,6 @@
 {
   "name": "@nokl/renovate-config",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "repository": "https://github.com/nokl/renovate-config",
   "author": "nokl",
   "license": "MIT",
