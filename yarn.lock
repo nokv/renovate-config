@@ -35,7 +35,12 @@
   dependencies:
     tslib "2.0.0"
 
-"@sindresorhus/is@3.0.0", "@sindresorhus/is@^3.0.0":
+"@sindresorhus/is@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.0.tgz#d8735532635bea69ad39119df5f0f10099bd09dc"
+  integrity sha512-n4J+zu52VdY43kdi/XdI9DzuMr1Mur8zFL5ZRG2opCans9aiFwkPxHYFEb5Xgy7n1Z4K6WfI4FpqUqsh3E8BPQ==
+
+"@sindresorhus/is@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.0.0.tgz#78fabc5e295adb6e1ef57eaafe4cc5d7aa35b183"
   integrity sha512-kqA5I6Yun7PBHk8WN9BBP1c7FfN2SrD05GuVSEYPqDb4nerv7HqYfgBfMIKmT/EuejURkJKLZuLyGKGs6WEG9w==
@@ -198,10 +203,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-sdk@2.713.0:
-  version "2.713.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.713.0.tgz#e87404ddcba093d36afafb48f119ec66f654a83f"
-  integrity sha512-axR1eOVn134KXJc1IT+Au2TXcK6oswY+4nvGe5GfU3pXeehhe0xNeP9Bw9yF36TRBxuvu4IJ2hRHDKma05smgA==
+aws-sdk@2.725.0:
+  version "2.725.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.725.0.tgz#287ef3b55aa66f10c88671ec62300e96015aaf6a"
+  integrity sha512-Qd/MlxfQC9NpTxFUQ7u2BdsjiwNtbn5oVp04NPfXEc0xyT216TtcIs+jNyiJ9WaH7AgkHouU1BbBcReO8byYzg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2024,16 +2029,16 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@22.5.0:
-  version "22.5.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-22.5.0.tgz#978fd53feb01166a9bf10292d07bc6300b08a941"
-  integrity sha512-+KMUKYbTvByzCPzQbkcPNV3mCQUDhyR2huMsLo2Ltqs3NYsYpveWTeHfPVR3LmPewg1o2Nksvt11TrJjHUGG5Q==
+renovate@22.9.0:
+  version "22.9.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-22.9.0.tgz#e0f4646d126fc0f5350fc7cf720ed3500700e859"
+  integrity sha512-2W+R+ex5IU3Nsv3BJyB4t2YrHBAYXhPwSOYq1mOIxRXWUAnxvzPXEOcZEp9Y0iNnjpoxS1SbxpDTfrZgJfS0Eg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
-    "@sindresorhus/is" "3.0.0"
+    "@sindresorhus/is" "3.1.0"
     "@yarnpkg/lockfile" "1.1.0"
-    aws-sdk "2.713.0"
+    aws-sdk "2.725.0"
     azure-devops-node-api "10.1.1"
     bunyan "1.8.14"
     cacache "15.0.5"
@@ -2084,7 +2089,7 @@ renovate@22.5.0:
     shlex "2.0.2"
     shortid "2.2.15"
     simple-git "2.15.0"
-    slugify "1.4.4"
+    slugify "1.4.5"
     toml "3.0.0"
     traverse "0.6.6"
     upath "1.2.0"
@@ -2282,10 +2287,10 @@ simple-git@2.15.0:
     "@kwsites/promise-deferred" "^1.1.1"
     debug "^4.1.1"
 
-slugify@1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.4.tgz#2f032ffa52b1e1ca2a27737c1ce47baae3d0883a"
-  integrity sha512-N2+9NJ8JzfRMh6PQLrBeDEnVDQZSytE/W4BTC4fNNPmO90Uu58uNwSlIJSs+lmPgWsaAF79WLhVPe5tuy7spjw==
+slugify@1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.5.tgz#a7517acf5f4c02a4df41e735354b660a4ed1efcf"
+  integrity sha512-WpECLAgYaxHoEAJ8Q1Lo8HOs1ngn7LN7QjXgOLbmmfkcWvosyk4ZTXkTzKyhngK640USTZUlgoQJfED1kz5fnQ==
 
 source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
