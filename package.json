@@ -1,8 +1,8 @@
 {
   "name": "@nokl/renovate-config",
   "version": "0.0.1",
-  "repository": "https://github.com/nokl/renovate-config",
-  "author": "nokl",
+  "repository": "https://github.com/nokv/renovate-config",
+  "author": "nokv",
   "license": "MIT",
   "scripts": {
     "test": "renovate-config-validator"
@@ -13,7 +13,7 @@
         "config:base"
       ],
       "assignees": [
-        "nokl"
+        "nokv"
       ],
       "patch": {
         "groupName": "all dependencies"
