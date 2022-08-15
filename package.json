@@ -1,5 +1,5 @@
 {
-  "name": "@nokl/renovate-config",
+  "name": "@nokv/renovate-config",
   "description": "Shareable config for Renovate",
   "version": "0.0.3",
   "repository": {
@@ -16,10 +16,12 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator",
+    "test": "run-s validate:*",
+    "validate:default": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator",
     "release": "standard-version && git push --follow-tags"
   },
   "devDependencies": {
+    "npm-run-all": "4.1.5",
     "renovate": "32.159.2",
     "standard-version": "9.5.0"
   }
