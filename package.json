@@ -1,26 +1,26 @@
 {
   "name": "@nokl/renovate-config",
+  "description": "Shareable config for Renovate",
   "version": "0.0.2",
-  "repository": "https://github.com/nokv/renovate-config",
-  "author": "nokv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nokv/renovate-config"
+  },
+  "homepage": "https://github.com/nokv/renovate-config#readme",
+  "author": "nokv  <naoki.tkb@gmail.com>",
+  "keywords": [
+    "renovate"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base"
-      ],
-      "assignees": [
-        "nokv"
-      ],
-      "patch": {
-        "groupName": "all dependencies"
-      }
-    }
+    "test": "renovate-config-validator",
+    "release": "standard-version && git push --follow-tags"
   },
   "devDependencies": {
-    "renovate": "24.98.3"
+    "renovate": "32.159.2",
+    "standard-version": "9.5.0"
   }
 }

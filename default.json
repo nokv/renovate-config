@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["npm", "github-actions"],
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    "group:monorepos",
+    "group:recommended",
+    "packages:stylelint",
+    ":label(renovate)",
+    ":semanticCommitScopeDisabled",
+    ":separateMultipleMajorReleases",
+    ":pinVersions",
+    ":automergeDisabled"
+  ],
+  "npm": {
+    "extends": ["npm:unpublishSafe", "helpers:disableTypesNodeMajor"],
+    "rangeStrategy": "bump",
+    "semanticCommitType": "chore",
+    "dependencyDashboard": true,
+    "separateMajorMinor": true,
+    "separateMinorPatch": true,
+    "assignees": ["nokv"],
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["patch", "minor"],
+        "excludePackageNames": ["typescript"],
+        "groupName": "all minor and patch dependencies"
+      },
+      {
+        "groupName": "linters",
+        "extends": ["packages:linters"],
+        "matchPackageNames": ["prettier"],
+        "matchPackagePatterns": [
+          "^@typescript-eslint/",
+          "^eslint-",
+          "^prettier-"
+        ]
+      }
+    ]
+  }
+}

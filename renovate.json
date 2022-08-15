@@ -1,5 +1,13 @@
 {
-  "extends": [
-    "@nokl"
+  "extends": ["local>nokv/renovate-config"],
+  "npm": {
+    "schedule": ["after 7am before 10am"]
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["renovate"],
+      "matchManagers": ["npm"],
+      "stabilityDays": 0
+    }
   ]
 }
