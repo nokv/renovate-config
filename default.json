@@ -20,7 +20,6 @@
     "dependencyDashboard": true,
     "separateMajorMinor": true,
     "separateMinorPatch": true,
-    "assignees": ["nokv"],
     "packageRules": [
       {
         "matchUpdateTypes": ["patch", "minor"],
