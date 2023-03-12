@@ -22,11 +22,6 @@
     "separateMinorPatch": true,
     "packageRules": [
       {
-        "matchUpdateTypes": ["patch", "minor"],
-        "excludePackageNames": ["typescript"],
-        "groupName": "all minor and patch dependencies"
-      },
-      {
         "groupName": "linters",
         "extends": ["packages:linters"],
         "matchPackageNames": ["prettier"],
